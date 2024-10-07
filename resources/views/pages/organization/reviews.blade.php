@@ -138,7 +138,7 @@
                             <div class="col-md-7">
                               <div class="row">
                                 <div class="col-4">
-                                    <div class="rateit rateit-mdi" data-rateit-mode="font" data-rateit-icon="󰓒"  data-rateit-value="{{$review->rating}}" data-rateit-ispreset="true" data-rateit-readonly="true">
+                                  <div class="rateit rateit-mdi" data-rateit-mode="font" data-rateit-icon="󰓒"  data-rateit-value="  {{$review->rating}}" data-rateit-ispreset="true" data-rateit-readonly="true">
                                   </div>
                                   <p>{{$review->organization->name}}</p>
                                   <span class="card-text">{{$review->created_at}}</span><br><br>

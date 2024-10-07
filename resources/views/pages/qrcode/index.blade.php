@@ -65,7 +65,7 @@
                             <div class="mb-2">
                               <a href="/organization/generate-qrcode-raw/{{$organization->web_name}}" class="btn btn-info rounded" style="width: 250px">Скачать макет A6</a>
                             </div> --}}
-                        </div>
+                          </div>
                       </div> <!-- end row-->
                   </div> <!-- end card-->
                 @empty
@@ -181,7 +181,7 @@
     copyButton.addEventListener("mouseover", (e) => resetTooltip(e));
 
   </script>
-  <script>
+  {{-- <script>
       var copyTextareaBtn = document.getElementsByClassName('js-textareacopybtn');
       var copyTextarea = document.getElementsByClassName('js-copytextarea');
       Array.from(copyTextareaBtn).forEach((item,index) =>{
@@ -201,7 +201,7 @@
       });
 
 
-  </script>
+  </script> --}}
 @endpush
 
 @push('css')

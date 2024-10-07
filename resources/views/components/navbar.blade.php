@@ -4,7 +4,7 @@
 
               <!-- Brand Logo Light -->
               <a href="/" class="logo logo-light text-light bg-dark">
-                  <span class="border rounded p-2">
+                  <span class="border rounded p-1">
                     Сыпат тамийнлеу
                   </span>
                   {{-- <span class="logo-sm">
